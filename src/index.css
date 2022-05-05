@@ -55,3 +55,38 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+
+.app .top {
+    text-align: center;
+    padding: 1rem;
+}
+
+.app .middle {
+    text-align: center;
+    padding: 1rem;
+}
+
+.app .bottom {
+    text-align: center;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.app input {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: 1px solid #111;
+}
+
+.app .button {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: 1px solid #111;
+    background-color: yellow;
+}
